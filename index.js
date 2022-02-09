@@ -14,6 +14,6 @@ acBtn.addEventListener('click',()=>{
 
 
 function compute(){
-    let answer=eval(result.value).toFixed(4);
+    let answer=eval(result.value);
     result.value=answer;
 }
